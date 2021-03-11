@@ -32,6 +32,7 @@ function App() {
       else
       {
         setMessage("Oopps!!! Error in the repository or user name");
+        setList([]);
       }
 
     }).catch(console.log("error"))
