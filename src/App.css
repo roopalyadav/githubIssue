@@ -2,37 +2,51 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.github--logo{
+  margin-top: 5px;
+  width: 150px;
+  height: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box--container{
+  margin: 20px auto;
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.search--input{
+  margin: 25px auto;
+  width: 400px;
+  
+  
+}
+
+.github--message{
+  color: red;
+  font-size: 30px;
+  text-align: center;
+}
+
+.github--button{
+  width: 350px;
+  height: 50px;
+  background-color: rgb(13, 130, 184);
   color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input--githubuser{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 400px;
+  height: 25px;
+  font-size: 22px;
+  border-radius: 5px;
 }
